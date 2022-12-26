@@ -48,6 +48,21 @@ ul,ol{
 
 .menu-item{
     padding: 30px 20px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.menu-item:hover{
+    background: #1F1F1F;
+    color: #fff;
+}
+
+.m-call{
+    display: none;
+}
+
+.menu-link:hover{
+    color: #fff;
 }
 
 .main{
@@ -82,8 +97,6 @@ ul,ol{
     line-height: 28px;
     text-transform: uppercase;
 }
-
-
 
 .content-text{
     max-width: 730px;
@@ -180,4 +193,386 @@ ul,ol{
     text-transform: uppercase;
     padding: 12px 28px;
     border: 1px solid #FFFFFF;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.open-button:hover{
+    background-color: #000000;
+    color: #fff;
+}
+
+.order{
+    margin-bottom: 120px;
+}
+
+.order-inner{
+    display: flex;
+    align-items: center;
+}
+
+.order-banner-img{
+    width: 100%;
+}
+
+.order-content{
+    width: 60%;
+}
+
+.order-content-inner{
+    text-align: center;
+}
+
+.order-title{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+.order-text{
+    max-width: 470px;
+    display: block;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 60px;
+}
+
+.order-button{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #FFFFFF;
+    padding: 12px 28px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.order-button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.works{
+    margin-bottom: 120px;
+}
+
+.works-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.gallery-top{
+    margin-bottom: 40px;
+}
+
+.gallery-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-cards-inner{
+    background: #191B1C;
+    margin-bottom: 25px;
+}
+
+.gallery-cards-photo{
+    text-align: center;
+    padding: 55px 22px;
+}
+
+.gallery-cards-title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.gallery-cards-cost{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+}
+
+.brands{
+    background: #0F0F0F;
+}
+
+.brands-inner{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.brands-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.footer{
+    background-image: url(../img/footer-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about, .contacts{
+    width: 33%;
+    margin-right: 25px;
+}
+
+.contacts{
+    margin-right: 70px;
+}
+
+.about-title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.about-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.contacts-top{
+    margin-bottom: 40px;
+}
+
+.contacts-top, .contacts-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.contacts-plate{
+    margin-right: 20px;
+}
+
+.contacts-plate:last-child{
+    margin-right: 0;
+}
+
+.contact-link{
+    padding: 20px 10px;
+    background: #0F0F0F;
+}
+
+.map{
+    width: 33%;
+}
+
+.map-inner iframe{
+    border-radius: 25px;
+}
+
+@media (max-width:375px){
+    .header-inner{
+        padding: 20px 0px;
+    }
+
+    .menu-item{
+        display: none;
+    }
+
+    .m-call{
+        display: block;
+        text-transform: uppercase;
+        border: 1px solid #fff;
+        padding: 12px 28px;
+    }
+
+    .catalog-inner{
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .catalog-open{
+        width: 100%;
+    }
+
+    .open-inner{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .catalog-cards{
+        width: 100%;
+        padding: 60px 15px;
+    }
+
+    .cards-inner{
+        flex-direction: column;
+    }
+
+    .cards-item{
+        width: 100%;
+    }
+
+    .open-inner{
+        width: 100%;
+        text-align: center;
+    }
+
+    .order-inner{
+        flex-direction: column;
+    }
+
+    .order-banner{
+        margin-bottom: 60px;
+        width: 100%;
+    }
+
+    .order-content{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .order-inner{
+        flex-direction: column;
+    }
+
+    .order-banner{
+        margin-bottom: 60px;
+        width: 100%;
+    }
+
+    .order-content{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .works-title{
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .gallery-cards{
+        flex-direction: column;
+    }
+
+    .gallery-cards-item{
+        margin-bottom: 20px;
+    }
+
+    .works{
+        margin-bottom: 60px;
+    }
+
+    .brands-title{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 0px;
+    }
+
+    .brands-slider-img{
+        margin: 0 auto;
+    }
+
+    .slick-prev, .slick-next{
+        display: none !important;
+    }
+
+    .footer-inner{
+        flex-direction: column;
+    }
+
+    .about{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .contacts{
+        margin-bottom: 40px;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .contacts-top{
+        margin-bottom: 40px;
+    }
+
+    .contacts-top, .contacts-bottom{
+        justify-content: space-around;
+    }
+
+    .contact-link{
+        padding: 20px 5px;
+    }
+
+    .map{
+        width: 100%;
+    }
+
+}
+
+@media (max-width:993px){
+
+    .catalog{
+        margin-bottom: 60px;
+    }
+
+    .catalog-inner{
+        flex-direction: column;
+    }
+
+    .catalog-cards{
+        width: 100%;
+    }
+
+    .catalog-open{
+        width: 100%;
+    }
+
+    .open-inner{
+        padding: 100px;
+    }
+
+    .order-title{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .order-text{
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+
+    .order-button{
+        font-size: 16px;
+    }
+
+
 }
